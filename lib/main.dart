@@ -108,10 +108,10 @@ class _UniNetAppState extends State<UniNetApp> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           if (kDebugMode) {
-            print('Floating button clicked');
+            print('know about us');
           }
         },
-        child: const Text('Click'),
+        child: const Text('📞'),
       ),
     );
   }
