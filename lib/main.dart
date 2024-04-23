@@ -2,12 +2,18 @@
 
 import 'dart:math';
 
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:uninet/firebase_options.dart';
 
-void main() => runApp(const MaterialApp(
-      home: UniNetApp(),
-    ));
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  runApp(const MaterialApp(home: UniNetApp()));
+}
 
 class UniNetApp extends StatefulWidget {
   const UniNetApp({super.key});

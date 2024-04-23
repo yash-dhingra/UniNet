@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345557853376",
+    "project_id": "uninet-44f4c",
+    "storage_bucket": "uninet-44f4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345557853376:android:6f2f8f8fffe613d0e53925",
+        "android_client_info": {
+          "package_name": "com.example.uninet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8BOEUpboUB9_DUoLvd4ltDNAWk-3ymIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
